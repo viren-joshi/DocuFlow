@@ -5,3 +5,6 @@ terraform.tfstate.backup
 *.tfstate
 *.tfstate.backup
 *.zip
+terraform.tfvars
+*.tfvars.json
+.terraform.lock.hcl

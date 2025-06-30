@@ -13,6 +13,8 @@ module "cognito" {
 module "sfn-lambda-functions" {
     source = "./sfn-lambda"
 
+    resend_api_key = var.resend_api_key
+
     # vpc_id = module.docuflow-vpc.vpc_id
     # lambda_security_group_id = module.docuflow-vpc.lambda_security_group_id
     # lambda_subnet_ids = module.docuflow-vpc.private_subnet_ids

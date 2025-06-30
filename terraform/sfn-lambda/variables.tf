@@ -45,5 +45,5 @@ variable "docuflow_db_approver_index_gsi" {
 
 variable "resend_api_key" {
     type = string
-    default = "re_DZbCQUBW_FKMgmwgxLr8YUWsUPdzTXk67"
+    description = "Resend Emailing service's API key"
 }
