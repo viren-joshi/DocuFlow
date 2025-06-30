@@ -73,6 +73,11 @@ def lambda_handler(event, context):
                             'Value': user_id
                         }
                     ]
+                },
+                {
+                    'MetricName': "DocumentsSubmitted",
+                    'Value': 1,
+                    'Unit': 'Count',
                 }
             ]
         )

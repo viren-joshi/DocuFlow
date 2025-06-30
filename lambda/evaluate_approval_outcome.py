@@ -46,6 +46,11 @@ def lambda_handler(event, context):
                             'Value': approvers[0]['submittedBy']
                         }
                     ]
+                },
+                {
+                    'MetricName': "DocumentApprovalTime",
+                    'Value': diff.total_seconds(),
+                    'Unit': 'Seconds',
                 }
             ]
         )
