@@ -2,7 +2,6 @@
 
 DocuFlow is a fully serverless, cloud-native document approval system built on AWS. It streamlines document submissions, multi-level approvals, notifications, and version control for internal enterprise workflows. The system aims to be lightweight, scalable, and cost-efficient, making it ideal for organizations seeking automated and auditable document lifecycle management without managing servers or complex infrastructure.
 
----
 
 ## 🚀 Project Overview
 
@@ -14,7 +13,6 @@ Organizations often require secure, traceable, and efficient document approval w
 - Immutable audit trails for compliance
 - Fully serverless, auto-scaling infrastructure
 
----
 
 ## 📋 Key Features
 
@@ -24,8 +22,6 @@ Organizations often require secure, traceable, and efficient document approval w
 - Real-time document status tracking via APIs
 - Fully stateless and serverless deployment
 
-
----
 
 ## 📂 Architecture Overview
 
@@ -86,7 +82,6 @@ DocuFlow is designed with a **modular serverless architecture**:
 - **Infrastructure as Code**
   - Fully provisioned and managed with **Terraform (HCL)**
 
----
 
 ## 🗂️ Core AWS Services Used
 
@@ -100,8 +95,6 @@ DocuFlow is designed with a **modular serverless architecture**:
 | **Security & Identity**  | Amazon Cognito, IAM                                  |
 | **Monitoring & Governance** | Amazon CloudWatch                                |
 
-
----
 
 ## 📊 Well-Architected Framework Compliance
 
@@ -130,9 +123,6 @@ DocuFlow is designed with a **modular serverless architecture**:
   - Efficient use of compute resources with serverless services
   - Document versioning reduces redundant storage
   - Minimal operational overhead and energy consumption
-
-
----
 
 
 ## ⚙️ Lambda Functions
@@ -182,7 +172,6 @@ The **AWS Step Functions** state machine orchestrates the document approval proc
 - **Fallbacks:** Implicit rejection ensures workflow completes even on failures
 - **Scalability:** Serverless design enables handling high volumes of workflows
 
----
 
 ## 💸 Cost Estimate
 
@@ -190,7 +179,6 @@ The **AWS Step Functions** state machine orchestrates the document approval proc
 |-------------------------------------------|------------------------|
 | Lambda, S3, DynamoDB, Step Functions, etc.| ~$2 per 1,000 users    |
 
----
 
 ## 📝 Future Improvements
 
@@ -199,7 +187,6 @@ The **AWS Step Functions** state machine orchestrates the document approval proc
 - Integration with Slack/Microsoft Teams for approvals
 - More robust audit reports and metrics
 
----
 
 ## 📸 Implementation
 
